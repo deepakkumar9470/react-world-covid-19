@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+}
+
+body{
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: 'Roboto', sans-serif !important;
+  /* font-family: 'Lato', sans-serif !important; */
+  font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+.india{
+	font-size: 3rem;
+	color: #48dbfb;
+	font-weight: 500;
+}
+
+
+.App {
+  text-align: center;
+}
+
+footer p{
+	color: #fff;
+	font-size: 1rem;
+}
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+  }
+  
+  th { 
+	background: #333; 
+	color: white; 
+	font-weight: bold; 
+  }
+  td, th { 
+	padding: 6px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+  }
+
+  .col-sm-12{
+	  padding-top: 0.5rem;
+	  font-size: 2rem;
+	  font-family: 'Lato', sans-serif !important;
+  }
+
+ .virus_img{
+	font-size: 2rem;
+	margin: 1.5rem 0 0;
+	padding: 1.2rem;
+    transition: all linear;
+    animation: snow 3s linear infinite;
+    color:#fff;	 
+ }
+@keyframes snow{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
